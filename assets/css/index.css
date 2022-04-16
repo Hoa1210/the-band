@@ -1,0 +1,23 @@
+.pc,
+.table,
+.mobile{
+    color: red;
+    font-size: 100px;
+    display: none;
+}
+@media (min-width:1024px){
+    .pc{
+        display: block;
+    }
+
+}
+@media (min-width:740px) and (max-width: 1023px){
+    .table{
+        display: block;
+    }
+}
+@media (max-width:730px){
+    .mobile{
+        display: block;
+    }
+}

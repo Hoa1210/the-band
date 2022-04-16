@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BLACKPINK</title>
+    <link rel="icon" href="/assets/img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+<div id="header">
+    <div  id="logo">
+        <img src="./assets/img/logo.png" onclick="window.location.href='index.html'" alt="logo">
+    </div>
+    <div id="main">
+        <ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#band">members</a></li>
+            <li><a href="#band">Music</a></li>
+            <li><a href="#tour">Tour</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    <div id="mobile-menu" class="search-mobile">
+        <i class="fas fa-bars"></i>
+    </div>
+</div>
+<div id="slider">
+    <!-- <div class="text-content">
+        <h2 class="text-hesding">New York</h2>
+        <p class="text-description">We had the best time playing at Venice Beach!</p>
+      
+    </div> -->
+</div>
+<div id="content">
+    <div id="band" class="content-section">
+        <h2 class="section-heading">BAND PLAYERS</h2>
+        <p class="section-subheading">We love music</p>
+        <p class="about-text">Blackpink là nhóm nhạc nữ Hàn Quốc do công ty YG Entertainment thành lập và quản lý. 
+            Nhóm gồm 4 thành viên Jisoo, Jennie, Rosé, Lisa. 
+            Blackpink chính thức ra mắt với album đĩa đơn đầu tay mang tên Square One gồm hai ca khúc "Boombayah" và "Whistle".</p>
+        <div class="row members-list">
+            <div class="member-item col-four col text-centent">
+                <p class=" members-name">LISA</p>
+                <img src="./assets/img/lisa1.jpg" alt="lisa" class="members-img">
+            </div>
+            <div class="member-item col-four col text-centent">
+                <p class="members-name">JENNIE</p>
+                <img src="./assets/img/jennie.jpg" alt="jennie" class="members-img">
+            </div>
+            <div class="member-item col-four col text-centent">
+                <p class="members-name">JISOO</p>
+                <img src="./assets/img/jisoo.jpg" alt="jisoo" class="members-img">
+            </div>
+            <div class="member-item col-four col text-centent">
+                <p class="members-name">ROSÉ</p>
+                <img src="./assets/img/rose.jpeg" alt="rosé" class="members-img">
+            </div>
+        </div>
+    </div>
+    <div id="tour" class="tour-section">
+        <div class="content-section ">
+          <h2 class="section-heading text-white">TOUR DATES</h2>
+          <p class="section-subheading text-white">Remember to book your tickets!</p>
+
+           <div class="row places-list">
+              <div class="col col-third s-col-full mt-32">
+                         <img src="./assets/img/tour/tour-1.jpg" alt="newyork" class="places-img">
+                    <div class="places-body">
+                         <h3 class="places-heading">New York</h3>
+                         <p class="places-time">Fri 27 Nov 2016</p>
+                         <p class="places-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                         <button href="#" class="btn js-buy-ticket s-full-width">Buy Tickets</button>
+                    </div>
+               </div>
+
+              <div class="col col-third s-col-full mt-32">
+                         <img src="./assets/img/tour/tour-2.jpg" alt="newyork" class="places-img">
+                    <div class="places-body">
+                         <h3 class="places-heading">Paris</h3>
+                         <p class="places-time">Sat 28 Nov 2016</p>
+                         <p class="places-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                         <button href="#" class="btn js-buy-ticket s-full-width">Buy Tickets</button>
+                    </div>
+              </div>
+
+              <div class="col col-third s-col-full mt-32">
+                         <img src="./assets/img/tour/tour-2022.jpg" alt="newyork" class="places-img">
+                    <div class="places-body">
+                         <h3 class="places-heading">San Francisco</h3>
+                         <p class="places-time">Sun 29 Nov 2016</p>
+                         <p class="places-decs">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                        <button href="#" class="btn js-buy-ticket s-full-width">Buy Tickets</button>
+                    </div>    
+              </div>
+           </div>
+           <div class="carousel-control">
+                <i class="fa-solid fa-angle-left" onclick="prev()"></i>
+                <i class="fa-solid fa-angle-right" onclick="next()"></i>
+            </div>
+        </div>
+    </div>
+    <div class="story">
+        <div class="text-story">
+            <h1 class="story-heading">THE STORY OF THE BAND</h1>
+            <p class="story-text">Blackpink là nhóm nhạc nữ Hàn Quốc có thứ hạng cao nhất trên bảng xếp hạng Billboard Hot 100 khi đạt vị trí thứ 13 với "Ice Cream" (2020) và trên Billboard 200 với The Album (2020) ở vị trí thứ hai.
+                Blackpink là nhóm nhạc nữ K-pop đầu tiên lọt vào và dẫn đầu bảng xếp hạng Emerging Artists của Billboard đồng thời sở hữu ba đĩa đơn quán quân trên bảng xếp hạng World Digital Song Sales của Billboard.
+                Họ cũng là nhóm nhạc nữ Hàn Quốc đầu tiên nhận được chứng nhận từ Hiệp hội Công nghiệp ghi âm Hoa Kỳ (RIAA) cho đĩa đơn "Ddu-Du Ddu-Du" (2018) - video âm nhạc có nhiều lượt xem nhất trên YouTube của một nhóm nhạc Hàn Quốc.
+                Blackpink cũng là nhóm sở hữu số lượng bài hát lọt vào top 40 tại Vương quốc Anh nhiều nhất. 
+                Ca khúc "Kiss and Make Up" là bài hát đầu tiên của một nhóm nhạc nữ Hàn Quốc nhận được chứng nhận từ British Phonographic Industry và được chứng nhận đĩa bạch kim bởi Hiệp hội Công nghiệp Ghi âm Úc (ARIA).</p>
+
+                <div class="btn-story">
+                    <button>READ MORE</button>
+                </div>    
+        </div>
+        <div class="image">
+            <img src="/assets/img/Blackpink-PNG-HD-Image.png" alt="blackpink">
+        </div>
+        
+    </div>
+    <div class="new-albums">
+        <h2 class="albums-heading">MUSIC ALBUMS</h2>
+            <div class="albums">
+                <div class="albums-1">
+                <img id="img-1" src="./assets/img/albums/ddu-du-ddu-du.jpg" alt="ddu-du ddu-du">
+            </div>
+            <div class="albums-1">
+                <img id="img-2" src="./assets/img/albums/how-you-like-that.jpeg" alt="">
+            </div>
+            <div class="albums-1">
+                <img id="img-3" src="./assets/img/albums/ice-cream.jpg" alt="">
+            </div>
+        </div>
+        <div class="carousel-control">
+            <i class="fa-solid fa-angle-left" onclick="prev()"></i>
+            <i class="fa-solid fa-angle-right" onclick="next()"></i>
+        </div>
+    </div>
+    <div id="contact" class="content-section">
+        <h2 class="section-heading">SIGN UP FOR
+           <br> THE LATEST NEWSLETTER</h2>
+        <p class="section-subheading">Enter your Name and Email Address here to be updated.<br> We promise not to spam! Each month we release new musical material for you.</p>
+        <div class="row contact-content contact-info">
+            <div class="col col-half s-col-full ">
+                <p><i class="fas fa-map-marker-alt"></i> Chicago, US</p>
+                <p><i class="fas fa-phone-alt"></i> <a href="Phone: +00 151515">Phone: +00 151515</a> </p>
+                <p><i class="fas fa-envelope"></i> <a href="Email: mail@mail.com">Email: mail@mail.com</a> </p>
+            </div>
+            <div class="col col-half contact-form s-col-full ">
+                <form action="">
+                    <div class="row">
+                        <div class="col col-half s-col-full">
+                            <input type="text" name="" class="form-control" required id="contact-name" placeholder="Name">
+                        </div>
+                        <div class="col col-half s-col-full s-mt-8">
+                            <input type="mail" name="" class="form-control" required id="contact-mail" placeholder="Mail">
+                        </div>
+                    </div>
+                    <div class="row mt-8">
+                        <div class="col col-full">
+                            <input type="text" name="" class="form-control" required id="contact-mesager" placeholder="Messager">
+                        </div>
+                        
+                    </div>
+                    <div class="">
+                          <input type="submit" class="pull-right btn mt-16 s-half-width  " value="SEND">
+                    </div>
+                      
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="map-section">
+        <img src="./assets/img/footer.jpg" alt="Map">
+    </div>
+
+</div>
+ <div id="footer">
+     <div class="socials-list">
+         <a href="#"><i class="fab fa-instagram-square"></i></a>
+         <a href="#"><i class="fab fa-snapchat"></i></a>
+         <a href="#"><i class="fab fa-pinterest-square"></i></a>
+         <a href="#"><i class="fab fa-twitter-square"></i></a>
+         <a href="#"><i class="fab fa-invision"></i></a>
+     </div>
+     <p class="copy-right">Powered by <a href="">w3.css</a></p>
+ </div>
+<div class="modal js-modal">
+    <div class="modal-container js-modal-container">
+        <div class="modal-close js-modal-close">
+            <i class="fas fa-times"></i>
+        </div>
+        <header class="modal-header">
+            
+            <i class="modal-heading-icon fas fa-suitcase"></i>
+            Tickets
+        </header>
+        <div class="modal-body">
+            <label for="tickets-quanlity" class="modal-label">
+                 <i class="fas fa-shopping-cart"></i>
+                 Tickets, $15 per person
+            </label>
+            <input type="text" id="tickets-quanlity" class="modal-input" placeholder="How many?">
+
+            <label for="tickets-email" class="modal-label">
+                <i class="fas fa-user"></i>
+                 Sent to
+            </label>
+            <input type="email" id="tickets-email" class="modal-input" placeholder="Enter email">
+
+              <button id="buy-tickets">
+                 pay <i class="fas fa-check"></i>
+             </button>
+        </div>
+
+        <footer class="modal-footer">
+            <p class="modal-help">
+                Need <a href="#">help?</a>
+            </p>
+        </footer>
+    </div>
+</div>
+
+
+</body>
+<script src="./assets/js/index.js"></script>
+</html>
