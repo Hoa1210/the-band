@@ -148,7 +148,7 @@ html{
 #slider{
     position: relative;
     padding-top: 50%; /* 50% chieeuf ngang cuar chinh nos */
-    background: url(../../assets/img/banner.jpg) top center / cover no-repeat;
+    background: url(/assets/img/banner.jpg) top center / cover no-repeat;
 }
 #slider .text-content{
     position: absolute;
@@ -224,7 +224,7 @@ html{
 }
 
 .tour-section{
-    background: url(../../assets/img/bg-tour.jpg) ;
+    background: url(/assets/img/bg-tour.jpg) ;
     width: 100%;
 }
 .tour-section .content-section {
